@@ -1,5 +1,29 @@
+html {
+    height: 100%;
+    width : 100%;
+  }
+
+body {
+    height: 100%;
+    width : 100%;
+    margin: 0;
+    padding: 0;
+    display : flex;
+    flex-direction : column;
+    justify-content: space-between;
+  }
+
 aside {
-    background-color : yellow;
-    float : right;
-    width : 50px;
+    background-color : rgb(225, 169, 65);
 }
+
+header {
+    text-align : center;
+    background-color: salmon;
+  }
+
+main {
+}
+
+
+  
