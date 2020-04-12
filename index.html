@@ -2,77 +2,92 @@
 <html lang ="fr">
 <head>  
     <link rel = "stylesheet"   type = "text/css"   href = "style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/83215790cb.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <aside>
-        <img id="profil" src="moi.jpg">
-    </aside>
+
     <header>
-        GEOFFROY COMBETTE
+        <img style="padding : 10px" id="profil" src="moi.jpg">
+        <h1>GEOFFROY COMBETTE</h1>
+        <h2>Développeur web freelance</h2>
     </header>
-    <main>
-        <h1><i class="icon fas fa-graduation-cap"></i>FORMATION</h1>
-        <hr> 
-        <article>
-        <h6><i class="icon far fa-dot-circle"></i>2020-2021 Nevers</h6>
-        <p style="font-weight: bold;">OPENCLASSROOMS</p>
-        <p>Junior Web Developer</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue
-        ligula as quam viverra nec consectetur ant hendrerit. Donec et
-        mollis dolor. 
-        </p>
-        </article>
-        <article>
-            <h6><i class="icon far fa-dot-circle"></i>2020-2021 Nevers</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue
-            ligula as quam viverra nec consectetur ant hendrerit. Donec et
-            mollis dolor. 
-            </p>
-        </article>
-        <h1><i class="icon fas fa-graduation-cap"></i>EXPÉRIENCE PROFESSIONELLE</h1>
-        <hr> 
-        <article>
-            <h6><i class="icon far fa-dot-circle"></i>2020-2021 Nevers</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue
-            ligula as quam viverra nec consectetur ant hendrerit. Donec et
-            mollis dolor. 
-            </p>
-        </article>
-        <article>
-            <h6><i class="icon far fa-dot-circle"></i>2020-2021 Nevers</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue
-            ligula as quam viverra nec consectetur ant hendrerit. Donec et
-            mollis dolor. 
-            </p>
-        </article>
-        <h1><i class="icon fas fa-graduation-cap"></i>RECOMMANDATIONS</h1>
-        <hr> 
-        <article id="reco">
-            <p>MAXIME KIEMAN <br /> Directeur, Mon agence <br /> Telephone : <br /> Email : name@email.com</p>
-            <p>MAXIME KIEMAN <br /> Directeur, Mon agence <br /> Telephone : <br /> Email : name@email.com</p>
-        </article>
-    </main>
-    <footer>
-        <article>
-            <h1 style="color:rgb(254, 202, 7); background-color: rgb(93, 93, 93); margin : 0px; padding : 0px" id="info">CONTACT</h1>
-            <p>Adresse<br />Nevers, France<br /><br />Téléphone<br />06 00 00 00 00<br /><br />Email<br />nom@email.com<br /><br />Site web<br />www.name.com<br /><br />Skype<br />@nom_dutilisateur</p>
-        </article>
-        <article>
-            <h1 style="color:rgb(254, 202, 7); background-color: rgb(93, 93, 93); margin : 0px; padding : 0px" id="info">À PROPOS DE MOI</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    <section>
+        <main>
+            <h3><i class="icon fas fa-graduation-cap"></i>FORMATION</h3>
+            <hr> 
+            <article>
+                <h6><i class="icon far fa-dot-circle"></i>2020-2021 Nevers</h6>
+                <div id="exp">
+                    <h4 style="font-weight: bold;">OPENCLASSROOMS</h4>
+                    <h5>Junior Web Developer</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue
+                    ligula as quam viverra nec consectetur ant hendrerit. Donec et
+                    mollis dolor.</p>
+                </div>
+            </article>
+            <article>
+                <h6><i class="icon far fa-dot-circle"></i>2014-2016 Lille</h6>
+                <div id="exp">
+                    <h4 style="font-weight: bold;">EDHEC</h4>
+                    <h5>Ecole de Commerce</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue
+                    ligula as quam viverra nec consectetur ant hendrerit. Donec et
+                    mollis dolor.</p>
+                </div>
+            </article>
+            <h3><i class="icon fas fa-graduation-cap"></i>EXPÉRIENCE PROFESSIONELLE</h3>
+            <hr> 
+            <article>
+                <h6><i class="icon far fa-dot-circle"></i>2018-2019 Nevers</h6>
+                <div id="exp">
+                    <h4 style="font-weight: bold;">LUNC</h4>
+                    <h5>Business Develloper</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue
+                    ligula as quam viverra nec consectetur ant hendrerit. Donec et
+                    mollis dolor.</p>
+                </div>
+            </article>
+            <article>
+                <h6><i class="icon far fa-dot-circle"></i>2015-20217 Nevers</h6>
+                <div id="exp">
+                    <h4 style="font-weight: bold;">ACCENTURE</h4>
+                    <h5>Consultant</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue
+                    ligula as quam viverra nec consectetur ant hendrerit. Donec et
+                    mollis dolor.</p>
+                </div>
+            </article>
+            <h3><i class="icon fas fa-graduation-cap"></i>RECOMMANDATIONS</h3>
+            <hr> 
+            <article id="reco">
+                <p>MAXIME KIEMAN <br /> Directeur, Mon agence <br /> Telephone : <br /> Email : name@email.com</p>
+                <p>MAXIME KIEMAN <br /> Directeur, Mon agence <br /> Telephone : <br /> Email : name@email.com</p>
+            </article>
+        </main>
+        <aside>
+            <h3 style="color:rgb(254, 202, 7); background-color: rgb(93, 93, 93); margin : 0px; padding : 5px">CONTACT</h3>
+            <article>
+                <div id="adr"><p>Adresse<br />Nevers, France</p><p>Téléphone<br />06 00 00 00 00</p></div>
+                <div id="mail"><p>Email<br />nom@email.com</p><p>Site web<br />www.name.com</p><p>Skype<br />@nom_dutilisateur</p></div>
+            </article>
+            
+            <h3 style="color:rgb(254, 202, 7); background-color: rgb(93, 93, 93); margin : 0px; padding : 5px">À PROPOS DE MOI</h3>
+            <article>
+                <p id="apropos">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue
                 ligula as quam viverra nec consectetur ant hendrerit. Donec et
-                mollis dolor. </p>
-        </article>
-        <article>
-            <h1 style="color:rgb(254, 202, 7); background-color: rgb(93, 93, 93); margin : 0px; padding : 0px" id="info">LOISISR</h1>
-            <span><i class="fas fa-swimmer"></i><i class="fas fa-biking"></i><i class="fas fa-table-tennis"></i></span>
-        </article>
-    </footer>
+                mollis dolor.</p>
+            </article>
+            <h3 style="color:rgb(254, 202, 7); background-color: rgb(93, 93, 93); margin : 0px; padding : 5px">LOISISR</h3>
+            <article>
+                <div id="loisir"><i class="fas fa-swimmer"></i><i class="fas fa-biking"></i><i class="fas fa-table-tennis"></i></div>
+            </article>
+        </aside>
+    </section>
 </body>
 </html>
