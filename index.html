@@ -8,17 +8,21 @@
 <body>
 
     <header>
-        <img style="padding : 10px" id="profil" src="moi.jpg">
-        <h1>GEOFFROY COMBETTE</h1>
-        <h2>Développeur web freelance</h2>
+        <div id="photo">
+            <img style="padding : 10px" id="profil" src="moi.jpg">
+        </div>
+        <div id="nom">
+            <h1><span style="color : rgb(254, 202, 7)">GEOFFROY</span> <span style="font-weight: 100;">COMBETTE</span></h1>
+            <h2>Développeur web freelance</h2>
+        </div>
     </header>
     <section>
         <main>
             <h3><i class="icon fas fa-graduation-cap"></i>FORMATION</h3>
             <hr> 
-            <article>
+            <article class="experience">
                 <h6><i class="icon far fa-dot-circle"></i>2020-2021 Nevers</h6>
-                <div id="exp">
+                <div class="exp">
                     <h4 style="font-weight: bold;">OPENCLASSROOMS</h4>
                     <h5>Junior Web Developer</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -27,9 +31,9 @@
                     mollis dolor.</p>
                 </div>
             </article>
-            <article>
+            <article class="experience">
                 <h6><i class="icon far fa-dot-circle"></i>2014-2016 Lille</h6>
-                <div id="exp">
+                <div class="exp">
                     <h4 style="font-weight: bold;">EDHEC</h4>
                     <h5>Ecole de Commerce</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -40,9 +44,9 @@
             </article>
             <h3><i class="icon fas fa-graduation-cap"></i>EXPÉRIENCE PROFESSIONELLE</h3>
             <hr> 
-            <article>
+            <article class="experience">
                 <h6><i class="icon far fa-dot-circle"></i>2018-2019 Nevers</h6>
-                <div id="exp">
+                <div class="exp">
                     <h4 style="font-weight: bold;">LUNC</h4>
                     <h5>Business Develloper</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -51,9 +55,9 @@
                     mollis dolor.</p>
                 </div>
             </article>
-            <article>
+            <article class="experience">
                 <h6><i class="icon far fa-dot-circle"></i>2015-20217 Nevers</h6>
-                <div id="exp">
+                <div class="exp">
                     <h4 style="font-weight: bold;">ACCENTURE</h4>
                     <h5>Consultant</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -70,23 +74,28 @@
             </article>
         </main>
         <aside>
-            <h3 style="color:rgb(254, 202, 7); background-color: rgb(93, 93, 93); margin : 0px; padding : 5px">CONTACT</h3>
-            <article>
-                <div id="adr"><p>Adresse<br />Nevers, France</p><p>Téléphone<br />06 00 00 00 00</p></div>
-                <div id="mail"><p>Email<br />nom@email.com</p><p>Site web<br />www.name.com</p><p>Skype<br />@nom_dutilisateur</p></div>
-            </article>
-            
-            <h3 style="color:rgb(254, 202, 7); background-color: rgb(93, 93, 93); margin : 0px; padding : 5px">À PROPOS DE MOI</h3>
-            <article>
-                <p id="apropos">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue
-                ligula as quam viverra nec consectetur ant hendrerit. Donec et
-                mollis dolor.</p>
-            </article>
-            <h3 style="color:rgb(254, 202, 7); background-color: rgb(93, 93, 93); margin : 0px; padding : 5px">LOISISR</h3>
-            <article>
-                <div id="loisir"><i class="fas fa-swimmer"></i><i class="fas fa-biking"></i><i class="fas fa-table-tennis"></i></div>
-            </article>
+            <div>
+                <h3 style="color:rgb(254, 202, 7); background-color: rgb(93, 93, 93); margin : 0px; padding : 5px">CONTACT</h3>
+                <article class="info">
+                    <div id="adr"><p>Adresse<br />Nevers, France</p><p>Téléphone<br />06 00 00 00 00</p></div>
+                    <div id="mail"><p>Email<br />nom@email.com</p><p>Site web<br />www.name.com</p><p>Skype<br />@nom_dutilisateur</p></div>
+                </article>
+            </div>
+            <div>
+                <h3 style="color:rgb(254, 202, 7); background-color: rgb(93, 93, 93); margin : 0px; padding : 5px">À PROPOS DE MOI</h3>
+                <article class="info">
+                    <p id="apropos">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue
+                    ligula as quam viverra nec consectetur ant hendrerit. Donec et
+                    mollis dolor.</p>
+                </article>
+            </div>
+            <div>
+                <h3 style="color:rgb(254, 202, 7); background-color: rgb(93, 93, 93); margin : 0px; padding : 5px">LOISISR</h3>
+                <article class="info">
+                    <div id="loisir"><i class="fas fa-swimmer"></i><i class="fas fa-biking"></i><i class="fas fa-table-tennis"></i></div>
+                </article>
+            </div>
         </aside>
     </section>
 </body>
