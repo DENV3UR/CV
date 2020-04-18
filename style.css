@@ -3,7 +3,6 @@ html {
   }
 
 body {
-    height: 100%;
     margin: 0;
     padding: 0;
     font-family: tahoma;
@@ -129,7 +128,6 @@ body {
         flex-direction : row;
         align-items: stretch;
         justify-content: center;
-        height: 200px;
     }
 
     section {
