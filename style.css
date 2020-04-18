@@ -215,6 +215,7 @@ body {
         display : flex;
         flex-direction : row;
         align-items: stretch;
+        align-self: flex-end;
         justify-content: space-evenly;
         padding : 5px;
         font-size:20px
