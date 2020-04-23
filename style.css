@@ -18,16 +18,17 @@ body {
 
 #prenom {color : rgb(254, 202, 7)}
 
-#nom {font-weight: 100;}
+#name {font-weight: 100;}
 
 #poste {text-decoration: underline; 
     text-decoration-color: rgb(254, 202, 7);}
 
-#aside_title {
+.aside_title {
     color:rgb(254, 202, 7); 
     background-color: rgb(93, 93, 93); 
     margin : 0px; 
-    padding : 5px
+    padding : 5px;
+    text-align: center;
 }
 
 
