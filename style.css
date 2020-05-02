@@ -5,22 +5,18 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: tahoma;
+    font-family: tahoma, sans-serif;
     display : flex;
     flex-direction : column;
     align-items: stretch;
     justify-content: center;
   }
 
-  hr {
-    background-color : rgb(254, 202, 7);
-}
 
-#prenom {color : rgb(254, 202, 7)}
 
-#name {font-weight: 100;}
+.name {font-weight: 100;}
 
-#poste {text-decoration: underline; 
+.job {text-decoration: underline; 
     text-decoration-color: rgb(254, 202, 7);}
 
 .aside_title {
@@ -31,132 +27,192 @@ body {
     text-align: center;
 }
 
+.section_title {
+    border-bottom: thin  solid rgb(93, 93, 93);
+    padding-bottom: 1em;
+}
 
-@media screen and (max-width: 799px) {
+ul {
+    display : flex;
+    flex-direction : row;
+    align-items: stretch;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    color: rgb(93, 93, 93);
+}
 
-    article {
-        display : flex;
-        flex-direction : column;
-        align-items: stretch;
-        text-align : justify;
-        color: rgb(93, 93, 93);
+.auto_margin {
+    margin-top: auto;
+}
+
+.surname {color : white}
+
+.experience {
+    display : flex;
+    flex-direction : column;
+    align-items: stretch;
+    text-align : justify;
+    color: rgb(93, 93, 93);
+}
+
+header {
+    text-align : center;
+    font-family: tahoma, sans-serif;
+    font-weight: lighter;
+    margin: 0px;
+    background-color : rgb(254, 202, 7);
+}
+main {
+    display : flex;
+    flex-direction : column-reverse;
+}
+
+.main_section {
+    text-align : left;
+    margin : 15px;
+    font-size: 10pt;
+}
+
+
+.nav {
+    text-align : center;
+    margin : 0px;
+    font-size: 10pt;
+    background-color : rgb(254, 202, 7);
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 12px;
+}
+h4 {
+    margin : 5px;
+    font-weight: bold;
+}
+
+h5, h6 {
+    margin : 5px;
+}
+
+.profil {
+    height : 120px;
+    width : 120px;
+    border-radius: 50%;
+}
+
+.reco {
+    display : flex;
+    flex-direction : column;
+    align-items: stretch;
+    justify-content: space-between;
+    font-size: 8pt;
+}
+
+.icon {
+    color:rgb(254, 202, 7);
+    margin-right: 15px;
+    padding-top: 3px;
+}
+
+.aboutme {
+    padding :   5px;
+}
+
+.adr{
+    display : flex;
+    flex-direction : row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    font-size: 8pt;
+}
+
+.mail{
+    display : flex;
+    flex-direction : row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    font-size: 8pt;
+}
+
+.hobbies {
+    display : flex;
+    flex-direction : row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding : 5px;
+    font-size:20px
+}
+
+.title {
+    line-height: 1em;
+}
+
+.desktop-br {display: none;}
+
+.bullet{
+    display : inline-flex;
+    line-height: 1em;
+}
+
+.date{
+    margin : 0;
+    line-height: 15px;;
+}
+
+.size{
+    font-size : 0.875em;
+}
+
+
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 26px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    .resume{
+        font-size: 16px;
     }
 
     header {
         text-align : center;
-        font-family: verdana;
+        font-family: tahoma, sans-serif;
         font-weight: lighter;
         margin: 0px;
+        background-color : white;
     }
 
-    section {
-        text-align : left;
-        margin : 15px;
-        font-size: 10pt;
-    }
+    .surname {color : rgb(254, 202, 7)}
 
-
-    aside {
-        text-align : center;
-        margin : 0px;
-        font-size: 10pt;
-        background-color : rgb(254, 202, 7);
-    }
-
-    h1 {
-        font-size: 20px;
-    }
-
-    h2 {
-        font-size: 12px;
-    }
-
-    h3 {
-        font-size: 12px;
-    }
-
-    h4, h5, h6 {
-        margin : 5px;
-    }
-
-    #profil {
-        height : 120px;
-        width : 120px;
-        border-radius: 50%;
-    }
-
-    #reco {
-        display : flex;
-        flex-direction : row;
-        align-items: stretch;
-        justify-content: space-between;
-        font-size: 8pt;
-    }
-
-    .icon {
-        color:rgb(254, 202, 7);
-        margin-right: 15px;
-        padding-top: 3px;
-    }
-
-    #apropos {
-        padding :   5px;
-    }
-
-    #adr{
-        display : flex;
-        flex-direction : row;
-        align-items: stretch;
-        justify-content: space-evenly;
-        font-size: 8pt;
-    }
-
-    #mail{
-        display : flex;
-        flex-direction : row;
-        align-items: stretch;
-        justify-content: space-evenly;
-        font-size: 8pt;
-    }
-
-    #loisir {
-        display : flex;
-        flex-direction : row;
-        align-items: stretch;
-        justify-content: space-evenly;
-        padding : 5px;
-        font-size:20px
-    }
-
-    #nom {
-        line-height: 1em;
-    }
-
-    .desktop-br {display: none;}
-
-    .bullet{
-        display : inline-flex;
-        line-height: 1em;
-    }
-
-    .date{
-        margin : 0;
-        line-height: 15px;;
-    }
-
-    .size{
-        font-size : 0.875em;
-    }
-
-}
-
-@media screen and (min-width: 800px) {
     h6,h5 {
         font-size: 12px;
     }
+
+    h4 {
+        font-weight: bold;
+    }
     header {
         text-align : center;
-        font-family: tahoma;
+        font-family: tahoma, sans-serif;
         font-weight: lighter;
         margin: 0px;
         display : flex;
@@ -173,16 +229,17 @@ body {
         justify-content: center;
     }
 
-    section {
+    .main_section {
+        margin : 0px;
         text-align : left;
-        padding-left : 50px;
-        padding-right : 50px;
+        padding-left : 35px;
+        padding-right : 0px;
         font-size: 10pt;
         width : 500px
     }
+    
 
-
-    aside {
+    .nav {
         text-align : center;
         margin : 0px;
         font-size: 10pt;
@@ -204,20 +261,20 @@ body {
         color: rgb(93, 93, 93);
     }
 
-    #reco {
+    .reco {
         display : flex;
-        flex-direction : row;
+        flex-direction : column;
         align-items: stretch;
         justify-content: space-between;
     }
 
-    #profil {
+    .profil {
         height : 120px;
         width : 120px;
         border-radius: 50%;
     }
 
-    #photo {
+    .photo {
         width : 300px;
         background-color : rgb(254, 202, 7);
         display: flex;
@@ -226,10 +283,12 @@ body {
         
     }
 
-    #nom {
+    .title {
         width : 500px;
-        padding : 50px;
-        line-height: 1em;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left : 35px;
+        padding-right : 0px;
         text-align: left;
     }
 
@@ -247,18 +306,19 @@ body {
         padding-top: 30px;
     }
 
-    #loisir {
+    .hobbies {
         display : flex;
         flex-direction : row;
         align-items: stretch;
-        align-self: flex-end;
         justify-content: space-evenly;
-        padding : 5px;
+        padding : 20px;
         font-size:20px
     }
 
     .info {
-        padding : 20px;
+        padding-top : 20px;
+        padding-bottom : 20px;
+        width : 100%
     }
 
     .date{
@@ -277,6 +337,17 @@ body {
 
     .size{
         font-size : 1.33em;
+    }
+    .aboutme {
+        padding : 20px;
+    }
+
+    .adr{
+        padding-left : 10px;
+    }
+
+    .mail{
+        padding-left : 10px;
     }
 
 }
